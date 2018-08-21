@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+<form>
+<input type="text" id="text">
+<input type="submit">
+</form>
+<div id="cos2"></div>
+</body>
+<script type="text/javascript">
+$("form").onsubmit(function(
+var text = $("#text").val();
+$("#cos2").innerHTML = text;
+))
+</script>
+</html>
