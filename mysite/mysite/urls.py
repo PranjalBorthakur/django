@@ -19,6 +19,7 @@ from django.views.generic.base import TemplateView
 from . import views
 
 urlpatterns = [
+    url(r'^sparc/', include('sparc.urls')),
     url(r'^signup/', views.SignUp.as_view(), name='signup'),
     url(r'^login/', include('login.urls')),
     url(r'^cos2/', include('cos2.urls')),

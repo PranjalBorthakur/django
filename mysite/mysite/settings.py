@@ -25,7 +25,7 @@ SECRET_KEY = 'x4xbgn6izdj+(w*#eyyk73#t(mg4km%sd6gr1aoj)d$04+f8$1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.223.3.112']
+ALLOWED_HOSTS = ['18.222.193.74']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'cos2',
     'iframe',
     'login',
+    'sparc',
 ]
 
 MIDDLEWARE = [
